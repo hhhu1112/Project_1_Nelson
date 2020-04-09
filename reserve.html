@@ -8,16 +8,17 @@
         <form action="http://www.google.com">
             <fieldset class="center">
                 <legend class="abc">Please enter your information</legend>
-              First Name:<br />
+              First Name(*):<br />
               <input type="text" name="firstName" value="" placeholder="Enter your First Name here" required /><br />
               Last Name:<br />
               <input type="text" name="lastName" value="" placeholder="Enter your Last Name here" /><br />
-              Email:<br />
+              Email(*):<br />
               <input type="email" name="email" value="" placeholder="Enter your Email here" required /><br />
-              Comment:<br />
+              Comment(*):<br />
               <textarea rows="5" cols="20" required></textarea><br />
             </fieldset>
             <br/>
+            <p class="center" style="color: firebrick;">(*) is required field</p>
               <input type="submit" value="Make Reservation" class="center" />
               <br/>
                 <a href="about.html" target="_blank" class="center">About us</a>
